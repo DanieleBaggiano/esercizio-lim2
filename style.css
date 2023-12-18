@@ -1,0 +1,84 @@
+# {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(sfondoeserciziolim.jpg);
+    background-size: 100%;
+}
+
+.riquadro {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    background-color: rgba(7, 7, 7, 0.6);
+    margin-left: 25%;
+    margin-top: 5%;
+    transform: scale(1.2);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.logo-esercizio {
+    position: relative;
+    left: 40%;
+    margin-top: 5%;
+}
+
+img {
+    max-width: 15%;
+}
+
+.titolo {
+    color: rgb(9, 216, 9);
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 75%;
+    height: 30px;
+    background-color: rgb(9, 216, 9);
+    margin: auto;
+}
+
+.input-container {
+    text-align: center;
+    font-size: 21px;
+    
+}
+
+.testo-bianco {
+    color: white;
+    margin-left: 12%;
+}
+
+.scritta-grande {
+    font-size: 20px;
+}
+
+.carica-gino {
+    position: relative;
+    width: 25%;
+    height: 18px;
+    background-color: orange;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.carica-mike {
+    position: relative;
+    width: 55%;
+    height: 18px;
+    background-color: green;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.carica-fede {
+    position: relative;
+    width: 15%;
+    height: 18px;
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 7%;
+}
